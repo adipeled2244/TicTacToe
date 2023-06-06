@@ -1,15 +1,17 @@
-.App {
+.app {
   text-align: center;
   position: relative;
+  height: 100vh;
+  padding: 100px;
   background-color: rgb(75, 75, 75);
 
-  
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .app button{
@@ -21,7 +23,7 @@
   cursor: pointer;
   margin: 10px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -31,3 +33,13 @@
   color: rgb(0, 0, 0);
 }
 
+.app h1{
+
+  font-size: 50px;
+  color: rgb(226, 190, 231);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 10px;
+}

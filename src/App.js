@@ -13,6 +13,7 @@ const handlePlayAgain = (e) =>
 
   return (
     <div className="app">
+      <h1>Tic Tac Toe </h1>
         <Board playAgain={playAgain} setPlayAgain={setPlayAgain} />
         <button onClick={(e)=>handlePlayAgain(e)}>Play again</button>
     </div>
