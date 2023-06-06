@@ -67,7 +67,6 @@ const Board = ({ playAgain, setPlayAgain }) => {
     // Iterate over the winning combinations
     for (let combination of winningCombinations) {
       const [a, b, c] = combination;
-      console.log(a, b, c);
 
       // Check if the positions on the board match the current winning combination
       if (
