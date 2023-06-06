@@ -3,7 +3,7 @@ import PanoramaFishEyeSharpIcon from "@mui/icons-material/PanoramaFishEyeSharp";
 import ClearIcon from "@mui/icons-material/Clear";
 import React, { useEffect, useState } from "react";
 
-const Square = ({ player, boardSign, place, handleClick ,playAgain }) => {
+const Square = ({ boardSign, place, handleClick ,playAgain }) => {
   const [clicked, setClicked] = useState(false);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Square = ({ player, boardSign, place, handleClick ,playAgain }) => {
 
   const handlePress = () => {
     if (!clicked) {
-      handleClick(player, place);
+      handleClick(place);
       setClicked(true);
     }
   };

@@ -38,7 +38,7 @@ const Board = ({ playAgain, setPlayAgain }) => {
     setPlayer(1);
   };
 
-  const handlePlayerClick = (player, place) => {
+  const handlePlayerClick = ( place) => {
     setBoardState((prev) => {
       const newState = [...prev];
       newState[place] = player;
